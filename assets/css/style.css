@@ -555,7 +555,7 @@ section {
 
 .breadcrumbs h2 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 500;
   margin: 0;
 }
 
@@ -838,6 +838,42 @@ section {
 #clients .content ul li {
   padding-bottom: 10px;
 }
+
+/* System Section
+--------------------------------*/
+#system {
+  padding: 30px 0;
+}
+
+#system img {
+  width: 100%;
+  opacity: 1;
+  transition: 0.3s;
+  padding: 15px 0;
+}
+
+#system img:hover {
+  opacity: 1;
+}
+
+#system .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+
+#system .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #50d8af;
+}
+
+#system .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #50d8af;
+}
+
+
 
 /* Our Portfolio Section
 --------------------------------*/
