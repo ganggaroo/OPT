@@ -1914,3 +1914,10 @@ section {
 #footer .credits a {
   color: #035AA6;
 }
+
+.kakaotalk-chat {
+  position: fixed;
+  left: 1%;
+  bottom: 10px;
+  z-index: 99999;
+}
