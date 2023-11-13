@@ -42,7 +42,14 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
+  <script>
+    // SDK를 초기화 합니다. 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init('31d4530626ce9cb01cc54f9d7590ed7a');
 
+    // SDK 초기화 여부를 판단합니다.
+    console.log(Kakao.isInitialized());
+  </script>
   <!-- =======================================================
   * Template Name: Reveal
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -92,7 +99,13 @@
 </header><!-- End Header -->
 
   <main id="main">
-
+    <div class="kakaotalk-chat" id="create-channel-chat-button"></div>
+    <script type="text/javascript">
+      Kakao.Channel.createChatButton({
+        container: '#create-channel-chat-button',
+        channelPublicId: '_svCMK',
+      })
+    </script>
     <!-- ======= Breadcrumbs Section ======= -->
     <section class="breadcrumbs">
       <div class="container">
