@@ -1401,6 +1401,11 @@ section {
   overflow: hidden;
 }
 
+.blog .entry .entry-img1 {
+  display: flex;
+  justify-content: center;
+}
+
 .blog .entry .entry-title {
   font-size: 33px;
   font-weight: bold;
